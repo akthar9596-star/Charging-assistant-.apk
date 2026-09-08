@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Charging Assistant</string>
+    <string name="app_name_bengali">চার্জিং সহকারী</string>
+    <string name="tagline">Smart Phone Battery &amp; Charging Manager</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_battery_info">Battery Info</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Charging Statuses -->
+    <string name="status_charging">Charging</string>
+    <string name="status_not_charging">Not Charging</string>
+    <string name="status_full">Fully Charged</string>
+    <string name="status_discharging">Discharging</string>
+    <string name="status_unknown">Unknown</string>
+
+    <!-- Power Sources -->
+    <string name="source_ac">AC Fast Charger</string>
+    <string name="source_usb">USB Port</string>
+    <string name="source_wireless">Wireless Charger</string>
+    <string name="source_battery">Battery</string>
+    <string name="source_unknown">Unknown Source</string>
+
+    <!-- Metrics -->
+    <string name="metric_temperature">Temperature</string>
+    <string name="metric_voltage">Voltage</string>
+    <string name="metric_current">Charging Current</string>
+    <string name="metric_health">Health</string>
+    <string name="metric_technology">Technology</string>
+    <string name="metric_capacity">Estimated Capacity</string>
+    <string name="metric_source">Charging Source</string>
+    <string name="not_available">Not available on this device</string>
+
+    <!-- Health States -->
+    <string name="health_good">Good Condition</string>
+    <string name="health_overheat">Overheated</string>
+    <string name="health_dead">Dead</string>
+    <string name="health_over_voltage">Over Voltage</string>
+    <string name="health_cold">Too Cold</string>
+    <string name="health_unspecified">Unspecified Failure</string>
+
+    <!-- Alerts and Notifications -->
+    <string name="channel_status_name">Charging Monitoring</string>
+    <string name="channel_status_desc">Shows ongoing charging percentage and status</string>
+    <string name="channel_alerts_name">Safety &amp; Charge Alerts</string>
+    <string name="channel_alerts_desc">Alerts for full charge, overheating, and low battery</string>
+
+    <string name="alert_full_charge_title">Battery Charge Limit Reached!</string>
+    <string name="alert_full_charge_msg">Your battery reached the target limit of %1$d%%. You may disconnect your charger to prolong battery lifespan.</string>
+    <string name="alert_temp_high_title">Battery Overheat Warning!</string>
+    <string name="alert_temp_high_msg">Battery temperature is high (%1$.1f°C). Please disconnect charger or let your phone cool down.</string>
+    <string name="alert_low_battery_title">Low Battery Alert!</string>
+    <string name="alert_low_battery_msg">Battery dropped to %1$d%%. Please plug in your charger soon.</string>
+
+    <!-- Notification Ongoing -->
+    <string name="notification_charging_title">Charging Assistant Active</string>
+    <string name="notification_charging_text">%1$d%% • %2$s • %3$.1f°C</string>
+
+    <!-- Settings -->
+    <string name="settings_section_alerts">Charging Alerts</string>
+    <string name="settings_full_charge_alert">Full Charge Alert</string>
+    <string name="settings_full_charge_alert_desc">Notify when battery charges up to selected percentage</string>
+    <string name="settings_full_charge_target">Target Charge Level</string>
+
+    <string name="settings_temp_alert">High Temperature Alert</string>
+    <string name="settings_temp_alert_desc">Warn when battery temperature exceeds safety threshold</string>
+    <string name="settings_temp_limit">Maximum Temperature</string>
+
+    <string name="settings_low_battery_alert">Low Battery Alert</string>
+    <string name="settings_low_battery_alert_desc">Alert when battery drops below safety level</string>
+    <string name="settings_low_battery_target">Low Battery Level</string>
+
+    <string name="settings_section_feedback">Alert Feedback</string>
+    <string name="settings_sound">Sound Alert</string>
+    <string name="settings_sound_desc">Play audio tone when alert triggers</string>
+    <string name="settings_vibration">Vibration</string>
+    <string name="settings_vibration_desc">Vibrate phone on alerts</string>
+    <string name="settings_persistent_notification">Charging Notification</string>
+    <string name="settings_persistent_notification_desc">Show persistent notification while charging</string>
+
+    <string name="settings_section_appearance">Appearance &amp; Language</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">System Default</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_language">Language</string>
+    <string name="lang_english">English</string>
+    <string name="lang_bengali">বাংলা (Bengali)</string>
+
+    <string name="settings_section_privacy">Privacy &amp; Safety</string>
+    <string name="privacy_statement">100% Offline &amp; Private. Charging Assistant never collects personal data or battery metrics.</string>
+    <string name="safety_disclaimer">Notice: Android apps cannot physically stop electric charging unless supported by specific device kernel firmware. This app provides audio and visual alerts to notify you to unplug.</string>
+
+    <!-- History -->
+    <string name="history_title">Charging History</string>
+    <string name="history_empty">No charging sessions logged yet. Plug in your charger to start recording.</string>
+    <string name="history_clear">Clear History</string>
+    <string name="history_clear_confirm">Are you sure you want to delete all charging logs?</string>
+    <string name="history_session_duration">Duration: %1$s</string>
+    <string name="history_session_range">Charged from %1$d%% to %2$d%% (+%3$d%%)</string>
+    <string name="history_session_time">%1$s – %2$s</string>
+
+    <!-- Permissions -->
+    <string name="permission_notification_title">Notification Permission</string>
+    <string name="permission_notification_desc">Charging Assistant requires notification permission on Android 13+ to alert you when your phone reaches target charge levels or overheats.</string>
+    <string name="permission_grant">Grant Permission</string>
+</resources>

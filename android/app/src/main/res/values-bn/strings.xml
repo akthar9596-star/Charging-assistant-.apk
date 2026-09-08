@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">চার্জিং সহকারী</string>
+    <string name="app_name_bengali">চার্জিং সহকারী</string>
+    <string name="tagline">স্মার্ট ব্যাটারি ও চার্জিং মনিটর</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">ড্যাশবোর্ড</string>
+    <string name="nav_battery_info">ব্যাটারি তথ্য</string>
+    <string name="nav_history">চার্জিং ইতিহাস</string>
+    <string name="nav_settings">সেটিংস</string>
+
+    <!-- Charging Statuses -->
+    <string name="status_charging">চার্জ হচ্ছে</string>
+    <string name="status_not_charging">চার্জ হচ্ছে না</string>
+    <string name="status_full">সম্পূর্ণ চার্জ হয়েছে</string>
+    <string name="status_discharging">ডিসচার্জ হচ্ছে</string>
+    <string name="status_unknown">অজানা অবস্থা</string>
+
+    <!-- Power Sources -->
+    <string name="source_ac">এসি ফাস্ট চার্জার</string>
+    <string name="source_usb">ইউএসবি পোর্ট</string>
+    <string name="source_wireless">ওয়্যারলেস চার্জার</string>
+    <string name="source_battery">ব্যাটারি পাওয়ার</string>
+    <string name="source_unknown">অজানা উৎস</string>
+
+    <!-- Metrics -->
+    <string name="metric_temperature">ব্যাটারি তাপমাত্রা</string>
+    <string name="metric_voltage">ভোল্টেজ</string>
+    <string name="metric_current">চার্জিং বিদ্যুৎ প্রবাহ</string>
+    <string name="metric_health">ব্যাটারির স্বাস্থ্য</string>
+    <string name="metric_technology">প্রযুক্তি (Technology)</string>
+    <string name="metric_capacity">আনুমানিক ধারণক্ষমতা</string>
+    <string name="metric_source">চার্জিং সোর্স</string>
+    <string name="not_available">এই ডিভাইসে উপলব্ধ নয়</string>
+
+    <!-- Health States -->
+    <string name="health_good">ভালো অবস্থা (Good)</string>
+    <string name="health_overheat">অতিরিক্ত গরম (Overheat)</string>
+    <string name="health_dead">ত্রুটিপূর্ণ / ডেড</string>
+    <string name="health_over_voltage">অতিরিক্ত ভোল্টেজ</string>
+    <string name="health_cold">অত্যধিক ঠান্ডা</string>
+    <string name="health_unspecified">অনির্দিষ্ট সমস্যা</string>
+
+    <!-- Alerts and Notifications -->
+    <string name="channel_status_name">চার্জিং মনিটরিং</string>
+    <string name="channel_status_desc">চলমান চার্জিং শতকরা ও স্থিতি প্রদর্শন করে</string>
+    <string name="channel_alerts_name">নিরাপত্তা ও চার্জ অ্যালার্ট</string>
+    <string name="channel_alerts_desc">ফুল চার্জ, অতি-উত্তাপ ও লো ব্যাটারি সতর্কতা</string>
+
+    <string name="alert_full_charge_title">চার্জিং সীমা পূর্ণ হয়েছে!</string>
+    <string name="alert_full_charge_msg">আপনার ফোনের চার্জ নির্ধারিত %1$d%% স্তরে পৌঁছেছে। ব্যাটারির দীর্ঘস্থায়ী সুরক্ষার জন্য চার্জার খুলে ফেলতে পারেন।</string>
+    <string name="alert_temp_high_title">ব্যাটারি অতিরিক্ত গরম সতর্কতা!</string>
+    <string name="alert_temp_high_msg">ফোনের ব্যাটারি অতিরিক্ত গরম হয়ে গেছে (%1$.1f°C)। অনুগ্রহ করে চার্জার খুলুন এবং ফোনটিকে ঠাণ্ডা হতে দিন।</string>
+    <string name="alert_low_battery_title">লো ব্যাটারি সতর্কতা!</string>
+    <string name="alert_low_battery_msg">ব্যাটারির চার্জ কমে %1$d%% হয়েছে। অনুগ্রহ করে ফোনটি চার্জে সংযুক্ত করুন।</string>
+
+    <!-- Notification Ongoing -->
+    <string name="notification_charging_title">চার্জিং সহকারী সক্রিয়</string>
+    <string name="notification_charging_text">%1$d%% • %2$s • %3$.1f°C</string>
+
+    <!-- Settings -->
+    <string name="settings_section_alerts">চার্জিং অ্যালার্টসমূহ</string>
+    <string name="settings_full_charge_alert">ফুল চার্জ অ্যালার্ট</string>
+    <string name="settings_full_charge_alert_desc">নির্বাচিত শতাংশে পৌঁছালে সাউন্ড ও নোটিফিকেশন অ্যালার্ট দিন</string>
+    <string name="settings_full_charge_target">কাঙ্ক্ষিত চার্জের স্তর</string>
+
+    <string name="settings_temp_alert">অতিরিক্ত তাপমাত্রা অ্যালার্ট</string>
+    <string name="settings_temp_alert_desc">ব্যাটারি নির্দিষ্ট তাপমাত্রার উপরে উঠলে সতর্ক করুন</string>
+    <string name="settings_temp_limit">সর্বোচ্চ তাপমাত্রা সীমা</string>
+
+    <string name="settings_low_battery_alert">লো ব্যাটারি অ্যালার্ট</string>
+    <string name="settings_low_battery_alert_desc">চার্জ নির্দিষ্ট সীমার নিচে নামলে স্মরণ করিয়ে দিন</string>
+    <string name="settings_low_battery_target">লো ব্যাটারি লেভেল</string>
+
+    <string name="settings_section_feedback">অ্যালার্ট ফিডব্যাক</string>
+    <string name="settings_sound">সাউন্ড অ্যালার্ট</string>
+    <string name="settings_sound_desc">অ্যালার্ট ট্রিগার হলে রিংটোন বাজান</string>
+    <string name="settings_vibration">ভাইব্রেশন</string>
+    <string name="settings_vibration_desc">অ্যালার্টের সময় ফোন কাঁপবে</string>
+    <string name="settings_persistent_notification">চার্জিং নোটিফিকেশন</string>
+    <string name="settings_persistent_notification_desc">চার্জ চলাকালীন স্ট্যাটাস বারে নোটিফিকেশন দেখান</string>
+
+    <string name="settings_section_appearance">চেহারা ও ভাষা</string>
+    <string name="settings_theme">থিম</string>
+    <string name="settings_theme_system">সিস্টেম ডিফল্ট</string>
+    <string name="settings_theme_light">লাইট (Light)</string>
+    <string name="settings_theme_dark">ডার্ক (Dark)</string>
+    <string name="settings_language">ভাষা নির্বাচন</string>
+    <string name="lang_english">English (ইংরেজি)</string>
+    <string name="lang_bengali">বাংলা</string>
+
+    <string name="settings_section_privacy">গোপনীয়তা ও নিরাপত্তা</string>
+    <string name="privacy_statement">সম্পূর্ণ অফলাইন এবং সুরক্ষিত। কোনো ব্যক্তিগত ডেটা বা ব্যাটারির তথ্য কোথাও পাঠানো হয় না।</string>
+    <string name="safety_disclaimer">সতর্কতা: অ্যান্ড্রয়েড সিস্টেমের নিরাপত্তাজনিত কারণে কোনো সাধারণ অ্যাপ সরাসরি চার্জিং বন্ধ করতে পারে না। এই অ্যাপটি আপনাকে অ্যালার্ট দিয়ে চার্জার খোলার নির্দেশ দেয়।</string>
+
+    <!-- History -->
+    <string name="history_title">চার্জিং ইতিহাস</string>
+    <string name="history_empty">এখনো কোনো চার্জিং সেশন রেকর্ড হয়নি। চার্জার কানেক্ট করলেই রেকর্ড হওয়া শুরু হবে।</string>
+    <string name="history_clear">ইতিহাস মুছে ফেলুন</string>
+    <string name="history_clear_confirm">আপনি কি সমস্ত সংরক্ষিত চার্জিং ইতিহাস মুছে ফেলতে চান?</string>
+    <string name="history_session_duration">সময়কাল: %1$s</string>
+    <string name="history_session_range">%1$d%% থেকে %2$d%% পর্যন্ত চার্জ হয়েছে (+%3$d%%)</string>
+    <string name="history_session_time">%1$s – %2$s</string>
+
+    <!-- Permissions -->
+    <string name="permission_notification_title">নোটিফিকেশন অনুমতি</string>
+    <string name="permission_notification_desc">অ্যান্ড্রয়েড ১৩ বা তার পরবর্তী সংস্করণে সঠিক সময়ে সতর্কবার্তা ও অ্যালার্ম প্রদানের জন্য নোটিফিকেশন অনুমতি প্রয়োজন।</string>
+    <string name="permission_grant">অনুমতি দিন</string>
+</resources>

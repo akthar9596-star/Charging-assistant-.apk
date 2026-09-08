@@ -1,0 +1,6 @@
+{
+  "name": "চার্জিং সহকারী - Charging Assistant",
+  "description": "Production-ready Android application for battery charging monitoring, full charge & temperature alerts, charging history, and detailed battery health.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
